@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Agriculture</string>
+
+    <string-array name="items">
+        <item>農地の取引</item>
+        <item>道具の貸借</item>
+        <item>アドバイス</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="items2">
+        <item>手伝い募集</item>
+        <item>農地の取引</item>
+        <item>道具の貸借</item>
+        <item>アドバイス</item>
+        <item>その他</item>
+    </string-array>
+</resources>

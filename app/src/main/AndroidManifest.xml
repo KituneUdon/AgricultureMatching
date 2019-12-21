@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.s162132.agriculture">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Global"
+        android:allowBackup="true"
+        android:icon="@drawable/agri"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".MyPageActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ReclutiActivity" />
+        <activity android:name=".LogLogin" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".LogoutActivity" />
+        <activity android:name=".OfferingActivity" />
+        <activity android:name=".OtherActivity" />
+        <activity android:name=".OtherDetailActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".EditingActivity"></activity>
+    </application>
+
+</manifest>
